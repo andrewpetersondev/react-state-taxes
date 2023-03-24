@@ -1,12 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
+import React from 'react'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import About from './components/About'
+import Services from './components/Services'
+import States from './components/States'
+import Footer from './components/About'
+
+const App = () => {
   return (
-
-    <div className="App">
-
-    </div>
+    <>
+      <Navbar />
+      <Hero />
+      <About />
+      <Services />
+      <States />
+      <Footer />
+    </>
   );
 }
 
