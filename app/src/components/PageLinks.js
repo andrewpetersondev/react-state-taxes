@@ -1,0 +1,15 @@
+import React from 'react'
+import PageLink from './PageLink'
+import { pageLinks } from '../data'
+
+const PageLinks = ({ parentClass, itemClass }) => {
+    return (
+        <ul className={parentClass} id='nav-links'>
+            {pageLinks.map((link) => {
+                return <PageLink key={link.id} itemClass={itemClass} link={link} />
+            })}
+        </ul>
+    )
+}
+
+export default PageLinks
