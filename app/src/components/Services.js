@@ -1,13 +1,13 @@
-import React from 'react'
-import Service from './Service'
+import { services } from '../data'
 import Title from './Title'
+import Service from './Service'
 
 const Services = () => {
     return (
         <section className='section services' id='services'>
             <Title Title='our' subTitle='services' />
             <div className='section-center services-center'>
-                {Services.map((service) => {
+                {services.map((service) => {
                     return <Service {...service} key={service.id} />
                 })}
             </div>

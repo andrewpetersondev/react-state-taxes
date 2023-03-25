@@ -41,3 +41,31 @@ export const states = [
         location: 'california'
     }
 ]
+
+export const services = [
+    {
+        id: 1,
+        icon: 'fas fa-wallet fa-fw',
+        title: 'saving money',
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.',
+    },
+    {
+        id: 2,
+        icon: 'fas fa-tree fa-fw',
+        title: 'spending money',
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.',
+    },
+    {
+        id: 3,
+        icon: 'fas fa-socks fa-fw',
+        title: 'spending your kids money',
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.',
+    },
+    {
+        id: 4,
+        icon: 'fas fa-soild fa-baby',
+        title: 'spending your grandkids money',
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.',
+    },
+];
+
