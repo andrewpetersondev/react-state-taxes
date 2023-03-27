@@ -18,28 +18,28 @@ export const socialLinks = [
 export const states = [
     {
         id: 1,
-        image: img1,
-        taxRate: '11%',
-        location: 'hawaii'
+        image: img4,
+        taxRate: '13.3%',
+        location: 'california'
     },
     {
         id: 2,
-        image: img2,
-        taxRate: '10.75%',
-        location: 'new jersey'
-    },
-    {
-        id: 3,
         image: img3,
         taxRate: '11%',
         location: 'hawaii'
     },
     {
+        id: 3,
+        image: img2,
+        taxRate: '10.75%',
+        location: 'new jersey'
+    },
+    {
         id: 4,
-        image: img4,
-        taxRate: '13.3%',
-        location: 'california'
-    }
+        image: img1,
+        taxRate: '9.9%',
+        location: 'oregon'
+    },
 ]
 
 export const services = [

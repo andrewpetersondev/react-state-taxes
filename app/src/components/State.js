@@ -1,24 +1,19 @@
 const State = ({ id, image, taxRate, location }) => {
     return (
-        <article className='tour-card'>
-            <div className='tour-img-container'>
-                <img src={image} className='tour-img' alt={id} />
-                <p className='tour-date'>{id}</p>
+        <article className='state-card'>
+            <div className='state-img-container'>
+                <img src={image} className='state-img' alt={id} />
+                <p className='state-date'>{id}</p>
             </div>
-            <div className='tour-info'>
-                <div className='tour-title'>
-                    <h4>{id}</h4>
-                </div>
-                <p>{id}</p>
-                <div className='tour-footer'>
+            <div className='state-info'>
+                <div className='state-footer'>
                     <p>
                         <span>
                             <i className='fas fa-map'></i>
                         </span>
                         {location}
                     </p>
-                    <p>from {taxRate}%</p>
-                    <p>{id} days</p>
+                    <p>{taxRate}</p>
                 </div>
             </div>
         </article>
